@@ -91,7 +91,7 @@ article.post:last-of-type {
 }
 
 .site-nav ul li.current-menu-item a,
-.site-nav ul li.current-page-ancestor a  {
+.site-nav ul li.current-page-ancestor a {
 	background-color: #e76f65;
 	color: #fff !important;
 }
@@ -150,6 +150,7 @@ div.info-box p {
 
 
 /* Children Links */
+
 .children-links {
 	margin-bottom: 20px;
 	font-size: 80%;
@@ -174,11 +175,10 @@ div.info-box p {
 	padding-right: 20px;
 	border-right: 1px solid #f0f2f1;
 	font-size: 120%;
-
 }
 
 .children-links .parent-link a {
-    display: block;
+	display: block;
 	padding: 10px 12px;
 	font-weight: 500;
 }
@@ -187,4 +187,20 @@ div.info-box p {
 .children-links .current_page_item a:visited {
 	border-bottom: 1px solid #DDD;
 	color: #e76f65;
+}
+
+
+/* Post Styles */
+
+.post h2 {
+	margin-bottom: 0;
+}
+
+p.post-info {
+	font-size: 87%;
+	margin-top: 5px;
+}
+
+p.post-info a {
+	text-decoration: underline !important;
 }
